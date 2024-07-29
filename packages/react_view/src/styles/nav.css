@@ -18,3 +18,17 @@ ol {
 ol li {
     cursor: pointer;
 }
+@media (max-width: 600px) {
+    nav {
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav h1 {
+        font-size: 15px;
+    }
+    nav ol {
+        gap: 10px;
+        font-size: 13px;
+    }
+    
+}
