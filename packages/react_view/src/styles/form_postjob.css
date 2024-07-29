@@ -1,0 +1,92 @@
+.form_container {
+    padding: 0 20px;
+}
+label {
+    padding: 15px 0 10px 0;
+    width: 100%;
+}
+input[type='text'], textarea, select {
+    outline: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3px;
+}
+textarea {
+    resize: none;
+    overflow-y: scroll;
+}
+input[type='number'] {
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+input[type='file'] {
+    padding-top: 15px;
+}
+input[type='file']::file-selector-button {
+    background-color: #fff;
+    border: 1px solid #2a41e8;
+    color: #2a41e8;
+    padding: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+input[type='file']::after {
+    content: "Upload Files";
+}
+input[type='file']::file-selector-button:hover {
+    color: #fff;
+    background-color: #2a41e8;
+}
+.form_postjob_subtitle {
+    margin: 20px 0 2px 0;
+    padding: 12px 20px;
+    border: 1px solid #eee;
+    background-color: white;
+    font-weight: 450;
+}
+.form_postjob {
+    padding: 0 20px 20px 20px;
+    border: 1px solid #eee;
+    background-color: white;
+}
+.form_row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.form_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.salary_input {
+    display: flex;
+    gap: 10px;
+}
+.postjob_btn {
+    margin-top: 20px;
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: #2a41e8;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+}
+.postjob_btn:hover {
+    background-color: #3147ee;
+}
+
+@media (min-width: 1000px) {
+    .form_container {
+        padding-top: 30px;
+        width: 800px;
+        margin: auto;
+    }
+}

@@ -4,6 +4,7 @@ nav {
     text-align: center;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 .5px 10px #ddd;
+    background-color: #fff;
 }
 nav h1 {
     padding-left: 3vw;
